@@ -215,7 +215,7 @@ movies %>%
 
 ```{r}
 movies %>%
-  filter(year == 1995) 
+  filter (Comedy == 1, mpaa> 0, length > 120, rating > 8)
 ```
 
 After running the code above, I figured out that there are 1,248 movies made in 1995. 
